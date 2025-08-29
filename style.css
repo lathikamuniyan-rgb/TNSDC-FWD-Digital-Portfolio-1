@@ -1,0 +1,175 @@
+*{
+
+ margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}a
+
+body {
+
+  background: linear-gradient(135deg, black, #0abab5);
+
+  color: greenyellow;
+
+  line-height: 1.6;
+
+}
+
+header {
+
+  background: rgba(0, 0, 0, 0.85);
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+nav h1 {
+
+  margin-bottom: 10px;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+}
+
+nav ul li {
+
+  margin: 10px;
+
+}
+
+nav ul li a {
+
+  color:greenyellow;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+nav ul li a:hover {
+
+  color: #00ff00;
+
+}
+
+section {
+
+  padding: 50px;
+
+  text-align: center;
+
+}
+
+section h2 {
+
+  font-size: 2.5rem;
+
+  margin-bottom: 20px;
+
+}
+
+section ul {
+
+  list-style: none;
+
+  margin-top: 20px;
+
+}
+
+section ul li {
+
+  margin: 10px 0;
+
+}
+
+form input {
+
+  width: 80%;
+
+  padding: 10px;
+
+  margin: 10px 0;
+
+  border: none;
+
+  border-radius: 5px;
+
+  font-size: 1rem;
+
+}
+
+form button {
+
+  background: #00ff00;
+
+  color: black;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+form button:hover {
+
+  background: #00cc00;
+
+}
+
+footer {
+
+  background: black;
+
+  color: #fff8dc;
+
+  text-align: center;
+
+  padding: 0px;
+
+  margin-top: 0px;
+
+}
+
+@media (max-width: 768px) {
+
+  nav ul {
+
+    flex-direction: column;
+
+  }
+
+  form input {
+
+    width: 95%;
+
+  }
+
+}
